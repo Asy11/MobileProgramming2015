@@ -1,2 +1,2 @@
 # javalab4
-20113300 ΐ±Έν½Δ
+20113300 Yoon Myoung Sik
