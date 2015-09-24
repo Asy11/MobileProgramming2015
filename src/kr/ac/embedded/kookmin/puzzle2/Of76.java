@@ -5,16 +5,18 @@ interface Nose {
 }
 
 abstract class Picasso implements Nose {
-	/** **/
+	public int iMethod(){
 		return 7;
 	}
 }
 
-class Clowns extends /** **/ {
-}
+class Clowns extends Picasso {}
 
 class Acts extends Picasso {
-	/** **/
+
+	@Override
+	public int iMethod() {
+		// TODO Auto-generated method stub
 		return 5;
 	}
 }
